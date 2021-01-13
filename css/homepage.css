@@ -6,6 +6,7 @@ nav.navbar {
     top: 0px;
     background: #6E815D;
     margin: auto;
+    overflow-x: hidden;
 }
 
 
@@ -50,7 +51,7 @@ a:hover {
 
 /* JUMBOTRON */
 .jumbotron {
-    background-image: url(/imgs/jumbotron3.jpg);
+    background-image: url(/juliet/imgs/jumbotron3.jpg);
     position: absolute;
     background-size: auto;
     width: 100%;
@@ -58,6 +59,8 @@ a:hover {
     left: 0px;
     top: 150px;
     object-fit: contain;
+    overflow-x: hidden;
+
 }
 
 .lead {
@@ -104,6 +107,8 @@ a:hover {
     left: 0px;
     top: 781px;
     background: #C1AE8D;
+    overflow-x: hidden;
+
 }
 
 .trademark-juliet {
@@ -196,10 +201,12 @@ a:hover {
     left: 0px;
     top: 1800px;
     background: #E7EDEB;
+    overflow-x: hidden;
+
 }
 
 #first-tile {
-    background: url(/imgs/tile-1.jpg);
+    background: url(/juliet/imgs/tile-1.jpg);
     position: absolute;
     width: 400px;
     height: 400px;
@@ -213,7 +220,7 @@ a:hover {
 }
 
 #second-tile {
-    background: url(/imgs/tile-2.jpg);
+    background: url(/juliet/imgs/tile-2.jpg);
     background-size: cover;
     position: absolute;
     width: 400px;
@@ -228,7 +235,7 @@ a:hover {
 }
 
 #third-tile {
-    background: url(/imgs/tile-3.jpg);
+    background: url(/juliet/imgs/tile-3.jpg);
     position: absolute;
     width: 400px;
     height: 400px;
@@ -346,7 +353,10 @@ a:hover {
     height: 452px;
     left: 350px;
     top: 1300px;
+    
 }
+
+
 
 #check-title {
     width: 477px;
@@ -393,7 +403,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     right: 900px;
-    background: url(/imgs/bundle-1.jpg);
+    background: url(/juliet/imgs/bundle-1.jpg);
     background-size: cover;
     object-fit: fill;
     border-radius: 50%;
@@ -405,7 +415,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     left: 200px;
-    background: url(/imgs/bundle-2.jpg);
+    background: url(/juliet/imgs/bundle-2.jpg);
     object-fit: fill;
     background-size: cover;
     border-radius: 50%;
@@ -417,7 +427,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     left: 500px;
-    background: url(/imgs/bundle-3.jpg);
+    background: url(/juliet/imgs/bundle-3.jpg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -428,7 +438,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     left: 800px;
-    background: url(/imgs/bundle-4.jpg);
+    background: url(/juliet/imgs/bundle-4.jpg);
     background-size: cover;
     border-radius: 50%;
 }
