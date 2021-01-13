@@ -6,7 +6,6 @@ nav.navbar {
     top: 0px;
     background: #6E815D;
     margin: auto;
-    overflow-x: hidden;
 }
 
 
@@ -49,9 +48,13 @@ a:hover {
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* JUMBOTRON */
 .jumbotron {
-    background-image: url(/juliet/imgs/jumbotron3.jpg);
+    background-image: url(/imgs/jumbotron3.jpg);
     position: absolute;
     background-size: auto;
     width: 100%;
@@ -206,7 +209,7 @@ a:hover {
 }
 
 #first-tile {
-    background: url(/juliet/imgs/tile-1.jpg);
+    background: url(/imgs/tile-1.jpg);
     position: absolute;
     width: 400px;
     height: 400px;
@@ -220,7 +223,7 @@ a:hover {
 }
 
 #second-tile {
-    background: url(/juliet/imgs/tile-2.jpg);
+    background: url(/imgs/tile-2.jpg);
     background-size: cover;
     position: absolute;
     width: 400px;
@@ -235,7 +238,7 @@ a:hover {
 }
 
 #third-tile {
-    background: url(/juliet/imgs/tile-3.jpg);
+    background: url(/imgs/tile-3.jpg);
     position: absolute;
     width: 400px;
     height: 400px;
@@ -403,7 +406,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     right: 900px;
-    background: url(/juliet/imgs/bundle-1.jpg);
+    background: url(/imgs/bundle-1.jpg);
     background-size: cover;
     object-fit: fill;
     border-radius: 50%;
@@ -415,7 +418,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     left: 200px;
-    background: url(/juliet/imgs/bundle-2.jpg);
+    background: url(/imgs/bundle-2.jpg);
     object-fit: fill;
     background-size: cover;
     border-radius: 50%;
@@ -427,7 +430,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     left: 500px;
-    background: url(/juliet/imgs/bundle-3.jpg);
+    background: url(/imgs/bundle-3.jpg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -438,7 +441,7 @@ a:hover {
     height: 200px;
     top: 1500px;
     left: 800px;
-    background: url(/juliet/imgs/bundle-4.jpg);
+    background: url(/imgs/bundle-4.jpg);
     background-size: cover;
     border-radius: 50%;
 }
