@@ -1,0 +1,400 @@
+/* HEADER */
+nav.navbar {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    background: #6E815D;
+    margin: auto;
+}
+
+
+.navbar-brand {
+    position: absolute;
+    width: 623px;
+    height: 23px;
+    left: 475px;
+    top: 13px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #6E815D;
+}
+
+#links {
+    margin: auto;
+    padding: auto;
+}
+
+.nav-link {
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 50px;
+    padding-left: 100px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    background-image: url(/imgs/jumbotron3.jpg);
+    position: absolute;
+    background-size: auto;
+    width: 100%;
+    height: 630px;
+    left: 0px;
+    top: 150px;
+    object-fit: contain;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+
+}
+
+#who-we-are {
+    position: absolute;
+    width: 239px;
+    height: 42px;
+    left: 637px;
+    top: 900px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+#desc {
+    position: absolute;
+    width: 930px;
+    height: 280px;
+    left: 300px;
+    top: 1000px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+#about-2 {
+    width: 100%;
+}
+
+#desc-2 {
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    left: 110px;
+    top: 1712px;
+}
+
+#desc-backg {
+    background: url(/imgs/desc-2-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 810px;
+    height: 720px;
+    left: 790px;
+    top: 1492px;
+
+}
+
+#desc-3 {
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    left: 950px;
+    top: 2502px;
+    text-align: right;
+}
+
+#desc-backg-2 {
+    position: absolute;
+    width: 800px;
+    height: 720px;
+    top: 2212px;
+    background: url(/imgs/desc-3-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#desc-2,
+#desc-3,
+#desc-4 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+#desc-4 {
+    position: absolute;
+    width: 950px;
+    height: 123px;
+    left: 300px;
+    top: 3082px;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+}
+
+#about-4-shop {
+    position: absolute;
+    width: 233.42px;
+    height: 70px;
+    left: 653px;
+    top: 3255px;
+    background: #6E815D;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* SHOP NECKLACE / BRACELET */
+#necklace {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    left: 95px;
+    top: 3500px;
+    border-radius: 0px;
+
+}
+
+#desc-necklace {
+    position: absolute;
+    width: 270px;
+    height: 35px;
+    left: 92px;
+    top: 4020px;
+
+}
+
+#bracelet {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    left: 870px;
+    top: 3500px;
+    border-radius: 0px;
+
+}
+
+#desc-bracelet {
+    position: absolute;
+    width: 267px;
+    height: 35px;
+    left: 864px;
+    top: 4020px;
+}
+
+#desc-necklace,
+#desc-bracelet {
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 4100px;
+    bottom: 0px;
+    background: #C1AE8D;
+}
+
+#support,
+#products {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #43341F;
+
+
+}
+
+#support {
+    position: absolute;
+    width: 85px;
+    height: 21px;
+    left: 94px;
+    top: 50px;
+}
+
+#products {
+    position: absolute;
+    width: 98px;
+    height: 21px;
+    top: 50px;
+    left: 400px;
+}
+
+#supp-item1,
+#supp-item2,
+#supp-item3,
+#products-item1,
+#products-item2,
+#products-item3,
+#products-item4,
+#products-item5,
+#products-item6,
+#brand-name {
+    padding: 0;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0;
+
+}
+
+#supp-item1 {
+    position: absolute;
+    width: 45px;
+    height: 21px;
+    left: 95px;
+    top: 80px;
+}
+
+#supp-item2 {
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 95px;
+    top: 110px;
+}
+
+#supp-item3 {
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 95px;
+    top: 140px;
+}
+
+#products-item1 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 80px;
+
+}
+
+#products-item2 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 110px;
+
+}
+
+#products-item3 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 140px;
+
+}
+
+#products-item4 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 170px;
+
+}
+
+#products-item5 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 200px;
+
+}
+
+#products-item6 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 230px;
+
+}
+
+#brand-name {
+    position: absolute;
+    width: 404px;
+    height: 21px;
+    left: 941px;
+    top: 230px;
+    text-align: right;
+    right: 100px;
+}
+
+
+
+#facebook {
+    position: absolute;
+    height: 29.82px;
+    top: 200px;
+    right: 210px;
+}
+
+#instagram {
+    position: absolute;
+    height: 30px;
+    top: 200px;
+    right: 175px;
+}
