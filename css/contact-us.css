@@ -1,0 +1,296 @@
+/* HEADER */
+nav.navbar {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    background: #6E815D;
+    margin: auto;
+}
+
+
+.navbar-brand {
+    position: absolute;
+    width: 623px;
+    height: 23px;
+    left: 475px;
+    top: 13px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #6E815D;
+}
+
+#links {
+    margin: auto;
+    padding: auto;
+}
+
+.nav-link {
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 50px;
+    padding-left: 100px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#msg {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+#title {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#msg {
+    position: absolute;
+    width: 400px;
+    height: 83px;
+    left: 510px;
+    top: 350px;
+}
+
+#title {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 610px;
+    top: 279px;
+}
+
+form {
+    position: absolute;
+    width: 500px;
+    height: 575px;
+    left: 470px;
+    top: 500px;
+}
+
+form .row {
+    padding: 10px;
+
+}
+
+input {
+    border: 1px solid #6E815D;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: black;
+}
+
+#submit {
+    position: absolute;
+    width: 245px;
+    height: 50px;
+    left: 140px;
+    top: 280px;
+    background: #6E815D;
+    border-radius: 10px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 1000px;
+    bottom: 0px;
+    background: #C1AE8D;
+}
+
+#support,
+#products {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #43341F;
+
+
+}
+
+#support {
+    position: absolute;
+    width: 85px;
+    height: 21px;
+    left: 94px;
+    top: 50px;
+}
+
+#products {
+    position: absolute;
+    width: 98px;
+    height: 21px;
+    top: 50px;
+    left: 400px;
+}
+
+#supp-item1,
+#supp-item2,
+#supp-item3,
+#products-item1,
+#products-item2,
+#products-item3,
+#products-item4,
+#products-item5,
+#products-item6,
+#brand-name {
+    padding: 0;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0;
+
+}
+
+#supp-item1 {
+    position: absolute;
+    width: 45px;
+    height: 21px;
+    left: 95px;
+    top: 80px;
+}
+
+#supp-item2 {
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 95px;
+    top: 110px;
+}
+
+#supp-item3 {
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 95px;
+    top: 140px;
+}
+
+#products-item1 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 80px;
+
+}
+
+#products-item2 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 110px;
+
+}
+
+#products-item3 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 140px;
+
+}
+
+#products-item4 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 170px;
+
+}
+
+#products-item5 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 200px;
+
+}
+
+#products-item6 {
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 400px;
+    top: 230px;
+
+}
+
+#brand-name {
+    position: absolute;
+    width: 404px;
+    height: 21px;
+    left: 941px;
+    top: 230px;
+    text-align: right;
+    right: 100px;
+}
+
+
+
+#facebook {
+    position: absolute;
+    height: 29.82px;
+    top: 200px;
+    right: 210px;
+}
+
+#instagram {
+    position: absolute;
+    height: 30px;
+    top: 200px;
+    right: 175px;
+}
